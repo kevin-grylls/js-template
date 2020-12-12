@@ -1,6 +1,6 @@
 {
   "name": "vanilla-js-template",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "repository": "https://github.com/kevin-grylls/vanilla-js-template.git",
   "author": "kevin-grylls <eilgwon88@gmail.com>",
@@ -14,11 +14,6 @@
       "eslint . --fix",
       "prettier --write"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
